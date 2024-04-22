@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router';
+// import { useNavigate } from 'react-router';
 import software from '../../assets/pictures/projects/software.gif';
 import art from '../../assets/pictures/projects/art.gif';
 import music from '../../assets/pictures/projects/music.gif';
+import { useNavigate } from 'react-router-dom';
 
 export interface ProjectsProps {}
 
@@ -43,6 +44,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             style={styles.projectLink}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            onClick={handleClick} // Handle click event here
         >
             <div style={styles.projectLinkLeft}>
                 <img
@@ -86,17 +88,10 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     route="software"
                 />
                 <ProjectBox
-                    icon={music}
-                    iconStyle={styles.musicIcon}
-                    title="Music"
-                    subtitle="VENTURES"
-                    route="music"
-                />
-                <ProjectBox
                     icon={art}
                     iconStyle={styles.artIcon}
-                    title="Art"
-                    subtitle="ENDEAVORS"
+                    title="Photographic"
+                    subtitle="HOBBY"
                     route="art"
                 />
             </div>

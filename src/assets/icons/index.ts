@@ -6,7 +6,6 @@ import minimize from './minimize.png';
 import computerBig from './computerBig.png';
 import computerSmall from './computerSmall.png';
 import myComputer from './myComputer.png';
-import showcaseIcon from './showcaseIcon.png';
 import doomIcon from './doomIcon.png';
 import henordleIcon from './henordleIcon.png';
 import credits from './credits.png';
@@ -18,6 +17,7 @@ import windowExplorerIcon from './windowExplorerIcon.png';
 import windowsStartIcon from './windowsStartIcon.png';
 import scrabbleIcon from './scrabbleIcon.png';
 import close from './close.png';
+import letterT from './letterT.png';
 
 const icons = {
     windowResize: windowResize,
@@ -26,7 +26,6 @@ const icons = {
     computerBig: computerBig,
     computerSmall: computerSmall,
     myComputer: myComputer,
-    showcaseIcon: showcaseIcon,
     doomIcon: doomIcon,
     volumeOn: volumeOn,
     volumeOff: volumeOff,
@@ -38,6 +37,7 @@ const icons = {
     windowExplorerIcon: windowExplorerIcon,
     windowsStartIcon: windowsStartIcon,
     trailIcon: trailIcon,
+    letterT: letterT,
 };
 
 export type IconName = keyof typeof icons;

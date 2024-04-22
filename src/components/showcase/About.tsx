@@ -12,13 +12,13 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Luu Duy Toan (Thomas)</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a developer currently working at Netcompany! In April
+                    of 2024 I graduated from Royal Melbourne Institute of Technology
+                    with my bachelor in Information Technology.
                 </p>
                 <br />
                 <p>
@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:luutoan07@gmail.com">
+                        luutoan07@gmail.com
                     </a>
                 </p>
             </div>
@@ -40,14 +40,10 @@ const About: React.FC<AboutProps> = (props) => {
                     From a young age, I have had a curiosity about how things
                     worked. This naturally led me to become absolutely obsessed
                     with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    elementary school, I tried to build some machine with my technical model assembly kit. 
                 </p>
                 <br />
-                <div className="captioned-image">
+                {/* <div className="captioned-image">
                     <img src={me} style={styles.image} alt="" />
                     <p>
                         <sub>
@@ -55,35 +51,25 @@ const About: React.FC<AboutProps> = (props) => {
                             website :)
                         </sub>
                     </p>
-                </div>
+                </div> */}
 
                 <p>
                     I started programming more seriously in high school,
                     initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
+                    I firstly touched website development with some HTML CSS code.
+                    I have worked on many projects to explore about web app development, including computer vision,
+                    simple game logic projects, apps, and more. One of these
                     projects is viewable on my{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    In 2019, I applied and studied at Royal Melbourne Institute of Technology to study Information Technology. 
+                    It was my first choice and I was absolutely ecstatic to be going to such a great
+                    university. At the end of my sophomore year, I was curious about how to apply
+                    my knowledge in real-life working, so I applied to work at Netcompany through 
+                    Talent Recruitment for undergraduate student. At first, I primarily focusing
+                    on both front-end and back-end work, so I can be a fullstack developer.
                 </p>
                 <br />
                 <br />
@@ -102,8 +88,8 @@ const About: React.FC<AboutProps> = (props) => {
                             Beyond software, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
+                            <Link to="/projects/music">Photographer</Link>{' '}
+                            and drawing{' '}
                             <Link to="/projects/art">Digital Art</Link>. You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
@@ -111,18 +97,18 @@ const About: React.FC<AboutProps> = (props) => {
                             playing video games.
                         </p>
                         <br />
-                        <p>
+                        {/* <p>
                             In college, I was an active member in the fraternity
                             Sigma Alpha Epsilon and held multiple positions in
                             the chapter. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
-                        </p>
+                        </p> */}
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, April 2024
                             </sub>
                         </p>
                     </div>
@@ -137,9 +123,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://twitter.com/thomasluuu"
                     >
-                        @henryheffernan
+                        @Thomasluuu
                     </a>{' '}
                     Good luck and have fun!
                 </p>
@@ -149,8 +135,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:luutoan07@gmail.com">
+                        luutoan07@gmail.com
                     </a>
                 </p>
             </div>

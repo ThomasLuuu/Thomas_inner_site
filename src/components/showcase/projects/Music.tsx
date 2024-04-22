@@ -64,7 +64,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={house}
                 title="Timeless"
-                subtitle="Henry Heffernan - 2022"
+                subtitle="Thomas Luu - 2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />

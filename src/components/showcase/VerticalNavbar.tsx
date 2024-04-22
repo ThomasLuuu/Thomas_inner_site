@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from '../general';
 import forHire from '../../assets/pictures/forHireGif.gif';
-import { useLocation, useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router-dom';
+// import { useLocation, useNavigate } from 'react-router';
 
 export interface VerticalNavbarProps {}
 
@@ -29,12 +30,12 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
         return () => {};
     }, [location.pathname]);
 
-    return !isHome ? (
+    return (
         <div style={styles.navbar}>
             <div style={styles.header}>
-                <h1 style={styles.headerText}>Henry</h1>
-                <h1 style={styles.headerText}>Heffernan</h1>
-                <h3 style={styles.headerShowcase}>Showcase '22</h3>
+                <h1 style={styles.headerText}>Thomas</h1>
+                <h1 style={styles.headerText}>Luu</h1>
+                <h3 style={styles.headerShowcase}>Portfolio '24</h3>
             </div>
             <div style={styles.links}>
                 <Link containerStyle={styles.link} to="" text="HOME" />
@@ -64,11 +65,6 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                             />
                             <Link
                                 containerStyle={styles.insetLink}
-                                to="projects/music"
-                                text="MUSIC"
-                            />
-                            <Link
-                                containerStyle={styles.insetLink}
                                 to="projects/art"
                                 text="ART"
                             />
@@ -86,9 +82,7 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                 {/* <img src={forHire} style={styles.image} alt="" /> */}
             </div>
         </div>
-    ) : (
-        <></>
-    );
+    )
 };
 
 const styles: StyleSheetCSS = {
