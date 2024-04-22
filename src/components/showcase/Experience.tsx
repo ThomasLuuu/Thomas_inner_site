@@ -60,7 +60,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <h4>E-Wallet</h4>
+                            <h4>Wallet</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
