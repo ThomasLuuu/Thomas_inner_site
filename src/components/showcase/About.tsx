@@ -86,12 +86,11 @@ const About: React.FC<AboutProps> = (props) => {
                         <br />
                         <p>
                             Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
+                            enjoy doing in my free time. The most tangible
+                            hobbies I have is{' '}
                             <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
+                            read more about it at the page under my projects tab. 
+                            Some other hobbies I enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
